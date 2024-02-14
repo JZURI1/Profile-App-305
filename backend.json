@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "age": {
+        "type": "string"
+      },
+      "caption": {
+        "type": "string"
+      },
+      "gender": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string",
+        "format": "uri"
+      },
+      "name": {
+        "type": "string"
+      }
+    },
+    "required": ["age", "caption", "gender", "image", "name"]
+  }
+  
