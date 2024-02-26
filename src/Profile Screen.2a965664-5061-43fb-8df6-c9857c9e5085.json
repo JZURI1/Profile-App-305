@@ -40,22 +40,43 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
-        "TabNavigatorIcon": {},
-        "DrawerNavigationOptions": {},
-        "StackNavigationOptions": {
-            "headerStyle": {}
-        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true,
-        "navigationOptions": {
-            "headerStyle": {}
-        },
-        "tabNavigationOptions": {}
+        "isSimple": true
     },
     "children": [
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -1,
+                "ParentId": "2a965664-5061-43fb-8df6-c9857c9e5085",
+                "Y": 534.4666748046875,
+                "RelativeX": -1,
+                "RelativeY": 534,
+                "position": "absolute",
+                "edgeOffsets": 534.4666748046875,
+                "style": {
+                    "position": "absolute",
+                    "left": "22.853336588541666%",
+                    "top": "75.63218512813906%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "f5baf579-ff1a-4cfc-a596-94a66ace9147",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
+        },
         {
             "type": "Button",
             "translatedName": "Button",
@@ -157,7 +178,6 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 16,
                             "fontStyle": "normal",
-                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -365,7 +385,6 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 16,
                             "fontStyle": "normal",
-                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -430,7 +449,6 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 16,
                             "fontStyle": "normal",
-                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -604,7 +622,6 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 16,
                             "fontStyle": "normal",
-                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -679,7 +696,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -1010,7 +1026,6 @@
                     "top": "39.760121770169604%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "2a965664-5061-43fb-8df6-c9857c9e5085",
                 "position": "absolute",
                 "edgeOffsets": 210.99999999999997
@@ -1097,7 +1112,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
